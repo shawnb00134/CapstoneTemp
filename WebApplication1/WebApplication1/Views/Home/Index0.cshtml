@@ -1,0 +1,44 @@
+﻿@model List<string>
+
+@{
+    ViewData["Title"] = "Database Tables";
+}
+
+<div class="container mt-5">
+    <h1 class="mb-4">PostgreSQL Database Tables</h1>
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="card">
+            <div class="card-header">
+                <h5>Available Tables (@Model.Count)</h5>
+            </div>
+            <div class="card-body">
+                <ul class="list-group">
+                    @foreach (var tableName in Model)
+                    {
+                        <li class="list-group-item">
+                            <i class="bi bi-table"></i> @tableName
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning" role="alert">
+            <i class="bi bi-exclamation-triangle"></i> No tables found in the database.
+        </div>
+    }
+</div>
+
+<style>
+    .list-group-item {
+        transition: background-color 0.2s;
+    }
+
+        .list-group-item:hover {
+            background-color: #f8f9fa;
+        }
+</style>

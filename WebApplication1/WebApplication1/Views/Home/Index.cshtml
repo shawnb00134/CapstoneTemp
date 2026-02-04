@@ -1,0 +1,71 @@
+﻿@model WebApplication1.Models.HomeViewModel
+@{
+    ViewData["Title"] = "Home";
+}
+<div class="container mt-5">
+
+    <!-- App Users Section -->
+    <h1 class="mb-4">App Users</h1>
+    @if (Model.AppUsers != null && Model.AppUsers.Any())
+    {
+        <div class="card mb-5">
+            <div class="card-header">
+                <h5>App Users (@Model.AppUsers.Count)</h5>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Username</th>
+                                <th>Email</th>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var user in Model.AppUsers)
+                            {
+                                <tr>
+                                    <td>@user.Id</td>
+                                    <td>@user.Username</td>
+                                    //<td>@user.Email</td>
+                                    //<td>@user.FirstName</td>
+                                    //<td>@user.LastName</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning mb-5">No app users found.</div>
+    }
+
+    <!-- Organizations Section -->
+    <h1 class="mb-4">Organizations</h1>
+    @if (Model.Organizations != null && Model.Organizations.Any())
+    {
+        <div class="card">
+            <div class="card-header">
+                <h5>Organizations (@Model.Organizations.Count)</h5>
+            </div>
+            <div class="card-body">
+                <ul class="list-group">
+                    @foreach (var org in Model.Organizations)
+                    {
+                        <li class="list-group-item">@org</li>
+                    }
+                </ul>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning">No organizations found.</div>
+    }
+</div>

@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0602F6FD-3813-4B23-BB8F-1A914E2E3D49}|WebApplication1\\WebApplication1.csproj|c:\\users\\wd35b\\desktop\\uwg-cam-contentmanagementsystem\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0602F6FD-3813-4B23-BB8F-1A914E2E3D49}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0602F6FD-3813-4B23-BB8F-1A914E2E3D49}|WebApplication1\\WebApplication1.csproj|c:\\users\\wd35b\\desktop\\uwg-cam-contentmanagementsystem\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0602F6FD-3813-4B23-BB8F-1A914E2E3D49}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0602F6FD-3813-4B23-BB8F-1A914E2E3D49}|WebApplication1\\WebApplication1.csproj|c:\\users\\wd35b\\desktop\\uwg-cam-contentmanagementsystem\\webapplication1\\webapplication1\\model\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0602F6FD-3813-4B23-BB8F-1A914E2E3D49}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\model\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0602F6FD-3813-4B23-BB8F-1A914E2E3D49}|WebApplication1\\WebApplication1.csproj|c:\\users\\wd35b\\desktop\\uwg-cam-contentmanagementsystem\\webapplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0602F6FD-3813-4B23-BB8F-1A914E2E3D49}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0602F6FD-3813-4B23-BB8F-1A914E2E3D49}|WebApplication1\\WebApplication1.csproj|c:\\users\\wd35b\\desktop\\uwg-cam-contentmanagementsystem\\webapplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0602F6FD-3813-4B23-BB8F-1A914E2E3D49}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0602F6FD-3813-4B23-BB8F-1A914E2E3D49}|WebApplication1\\WebApplication1.csproj|c:\\users\\wd35b\\desktop\\uwg-cam-contentmanagementsystem\\webapplication1\\webapplication1\\model\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0602F6FD-3813-4B23-BB8F-1A914E2E3D49}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\model\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T02:44:13.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-04T02:31:37.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\WebApplication1\\WebApplication1\\Model\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Model\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\WebApplication1\\WebApplication1\\Model\\HomeViewModel.cs",
+              "RelativeToolTip": "WebApplication1\\Model\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T01:38:36.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\WebApplication1\\WebApplication1\\Model\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Model\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\WebApplication1\\WebApplication1\\Model\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebApplication1\\Model\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T01:29:11.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T02:25:16.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-28T02:32:12.191Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 233,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
