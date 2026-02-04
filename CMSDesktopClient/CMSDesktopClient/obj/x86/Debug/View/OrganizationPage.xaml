@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="CMSDesktopClient.View.OrganizationPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CMSDesktopClient.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="White">
+
+    <Grid>
+        <Rectangle HorizontalAlignment="Center" Height="100" Stroke="White" VerticalAlignment="Top" Width="1921" FocusVisualSecondaryBrush="White" Fill="#FF6EC1E4" FocusVisualPrimaryBrush="White"/>
+        <Image HorizontalAlignment="Left" Height="66" Margin="10,13,0,0" VerticalAlignment="Top" Width="866" Source="/Assets/ShofTechLogo.png"/>
+    </Grid>
+</Page>
+
