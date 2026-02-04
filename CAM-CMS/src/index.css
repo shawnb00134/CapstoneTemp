@@ -1,0 +1,97 @@
+:root {
+  --var-transition-time: 0.75s;
+  --var-transition: var(--var-transition-time) ease-in-out;
+
+  --var-transition-time: 0.6s;
+  --var-transition: all var(--var-transition-time);
+  --var-background-color: rgb(244 244 244);
+  --var-alternate-background-color: rgb(64, 64, 64);
+  --var-dark-grey: rgb(64, 64, 64);
+  --var-light-grey: rgb(82, 82, 82);
+  --var-seperator-color: rgb(211 211 211);
+  --var-error-color: rgb(255, 0, 0);
+  --var-background-accent-color: rgb(156 156 156);
+  --var-background-hover: rgb(215 215 215);
+  --var-text-color: rgb(0 0 0);
+  --var-alternate-text-color: rgb(255 255 255);
+
+  --var-accent-color-values: 98, 44, 190;
+  --var-accent-color: rgb(var(--var-accent-color-values));
+  --var-accent-color-hover-values: 138, 21, 206;
+  --var-accent-color-hover: rgb(var(--var-accent-color-hover-values));
+
+  --var-background-shadow: 0 0.188em 1.550em var(--var-background-accent-color);
+  --var-seperator: 1.5px solid var(--var-seperator-color);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.unauthorized {
+  background-color: lightgray !important;
+  border: none !important;
+  transition: var(--var-transition);
+}
+
+.unauthorized:hover {
+  cursor: not-allowed !important;
+  background-color: lightgray !important;
+  border-radius: 5px !important;
+  transform: scale(1) !important;
+  cursor: not-allowed !important;
+}
+
+.unauthorized[data-error]::before {
+  cursor: not-allowed !important;
+  content: attr(data-error);
+  position: absolute;
+  top: -150%;
+  left: 100%;
+  font-size: large;
+  transform: translateX(-100%);
+  padding: 5px;
+  color: var(--var-error-color);
+  border-radius: 5px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  z-index: 1;
+  opacity: 0;
+  transition: var(--var-transition);
+}
+
+.unauthorized[data-error]:hover::before {
+  opacity: 1;
+}
+
+.row {
+  display: flex;
+}
+
+.scrollable {
+  overflow-y: auto;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+dialog {
+  border: none;
+  box-shadow: var(--var-background-shadow);
+  padding: 2em;
+}

@@ -1,0 +1,24 @@
+{
+  "all": true,
+  "excludeAfterRemap": true,
+  "report-dir": "coverage-cy",
+  "reporter": ["text"],
+  "extension": [".js"],
+  "exclude": [
+    "node_modules",
+    "cypress",
+    "coverage",
+    "dist",
+    "public",
+    "test",
+    "tests",
+    "spec",
+    "specs",
+    "integration",
+    "fixtures",
+    "examples",
+    "support",
+    "plugins",
+    "cypress.json"
+  ]
+}

@@ -1,0 +1,224 @@
+.invite-users-dialog {
+  width: 40%;
+  height: 50%;
+  min-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.invite-users-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.invite-users-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: var(--var-background-color);    
+  color: black;
+}
+
+.invite-users-header button {
+  cursor: pointer;
+  background: var(--var-accent-color);
+  border: none;
+  color: white;
+  font-size: 1.8em;
+}
+
+.invite-users-header button:hover {
+  background-color: var(--var-accent-color-hover);
+}
+
+.invite-users-body {
+  display: flex;
+  flex-direction: row;
+  overflow-y: auto;
+  background-color: #fff;
+}
+.invite-users-body textarea{
+  resize: none;
+}
+
+
+.invite-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: var(--var-background-color);
+  border-top: 1px solid #e0e0e0;
+}
+
+.submit-button,
+.cancel-button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  width: 100px;
+  justify-self: center;
+  align-self: center;
+  
+}
+
+.invite-users-user.invalid-input p {
+  color: red; 
+}
+
+.submit-button {
+  background-color: var(--var-accent-color);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--var-accent-color);
+  color: white;
+}
+
+.add-users-button {
+  background-color: var(--var-accent-color);
+  color: white;
+}
+
+.add-users-button:hover {
+  background-color: var(--var-accent-color-hover);
+}
+
+.submit-button:hover {
+  background-color: var(--var-accent-color-hover);
+}
+
+.cancel-button:hover {
+  background-color: var(--var-accent-color-hover);
+}
+
+.invite-column textarea,
+.invite-column input[type="text"],
+.invite-column input[type="email"],
+.invite-column select {
+  margin-bottom: 10px;
+}
+
+.invite-body input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.invite-body select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.invite-body::-webkit-scrollbar {
+  width: 5px;
+}
+
+.invite-body::-webkit-scrollbar-track {
+  background: var(--var-scrollbar-track-color);
+}
+
+.invite-body::-webkit-scrollbar-thumb {
+  background: var(--var-scrollbar-thumb-color);
+}
+
+.invite-body::-webkit-scrollbar-thumb:hover {
+  background: var(--var-scrollbar-thumb-hover);
+}
+
+.invite-users-dialog ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-list-item {
+  position: relative;
+}
+
+.invite-users-left {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 1%;
+}
+.remove-user-button {
+  align-items: right;
+  align-self: right;
+  align-content: right;
+}
+.invite-users-right {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-right: 5%;
+  padding-left: 5cap;
+  padding-top: 1%;
+}
+
+.invite-users-roles {
+  display: flex;
+  align-self: center;
+}
+
+
+.invite-users-users {
+  display: flex;
+  flex-direction: column;
+  max-height: 260px;
+  overflow: hidden;
+  overflow-y: auto;
+  min-height: 260px;
+  overflow-x: auto;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  padding: 4px;
+  background-color: #fff;
+  margin-top: 7px;
+}
+.invite-users-email textarea{
+  max-height: 250px;
+  min-height: 250px; 
+  overflow: hidden;
+  overflow-y: auto;
+
+
+}
+
+.invite-users-sms{
+  margin-top: 13px;
+  flex-direction: column;
+}
+.invite-users-user {
+  display: flex;
+ 
+}
+
+.invite-users-user button {
+  height: min-content;
+  align-self: center;
+  justify-content: space-between;
+  margin-left: 50px;
+}

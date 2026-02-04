@@ -1,0 +1,6 @@
+﻿@CAMCMSServer_HostAddress = https://localhost:7211
+@CAMCMSUser = 2
+
+GET {{CAMCMSServer_HostAddress}}/element-{{CAMCMSUser}}
+
+###

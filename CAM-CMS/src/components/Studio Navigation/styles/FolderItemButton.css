@@ -1,0 +1,17 @@
+
+/* Defines how to display the module and element buttons on the studio navigation */
+.studio-nav-folder-item {
+    padding-left: 2.5em;
+    margin: 0;
+    width: 80%;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    text-overflow: ellipsis;
+}
+
+.studio-nav-folder-item h4 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

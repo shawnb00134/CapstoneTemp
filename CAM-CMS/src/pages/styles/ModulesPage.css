@@ -1,0 +1,124 @@
+.module-display {
+    padding: 0 5em;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.module-editing-display {
+    width: 100%;
+    height: 100%;
+}
+
+.module-display button {
+    background-color: var(--var-accent-color);
+    color: var(--var-alternate-text-color);
+    border: none;
+    border-radius: 10%;
+    transition: 0.25s;
+}
+
+.module-heading button {
+    margin: 0 1em;
+    width: 5em;
+    height: 2.75em;
+    font-size: medium;
+}
+
+.module-display button:hover {
+    background-color: var(--var-accent-color-hover);
+    transform: scale(1.05);
+}
+
+.module-heading {
+    padding-top: 2.5em;
+    height: fit-content !important;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: var(--var-seperator);
+}
+
+.module-heading-left {
+    width: 50%;
+    align-items: center;
+    margin-left: 2em;
+}
+
+.module-heading-meta-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 40%;
+}
+
+.module-heading-meta-data-icon {
+    color: #24a0ed;
+    z-index: 1;
+    transition: var(--var-transition);
+    transition-duration: 0.25s;
+}
+
+.module-heading-meta-data-icon:hover {
+    color: var(--var-accent-color);
+    transform: scale(1.25);
+    cursor: pointer;
+}
+
+.module-heading-meta-data .module-meta-data {
+    position: absolute;
+    z-index: 0;
+    background: var(--var-background-color);
+    color: var(--var-text-color);
+    padding: 0.5em;
+    border-radius: 0.5em;
+    box-shadow: var(--var-background-shadow);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    transition: var(--var-transition);
+    transition-duration: 0.25s;
+}
+
+.module-meta-data h5 {
+    margin: 0.5em;
+    transition: var(--var-transition);
+    transition-duration: 0.25s;
+}
+
+.module-meta-data h5.data-link {
+    text-decoration: underline;
+}
+
+.module-meta-data h5.data-link:hover {
+    color: var(--var-accent-color);
+    cursor: pointer;
+}
+
+.module-heading-right {
+    justify-content: end;
+    width: 50%;
+}
+
+.module-heading-left h1 {
+    margin-right: 2em;
+}
+
+.module-content {
+    height: 85%;
+    border-bottom: var(--var-seperator);
+}
+
+@media screen and (max-height: 950px) {
+    .module-content {
+        height: 75%;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .module-content {
+        height: 50%;
+    }
+}

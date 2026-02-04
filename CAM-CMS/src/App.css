@@ -1,0 +1,6 @@
+.App {
+    /* text-align: center; */
+    background-color: var(--var-background-color);
+    color: var(--var-text-color);
+    height: 100vh;
+}

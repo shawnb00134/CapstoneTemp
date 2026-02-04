@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "UWG CMS - People";
+}
+
+<div>
+    <header>
+        <div class="header d-flex align-items-center pe-5">
+            <a asp-controller="Home" asp-action="Dashboard"><img src="~/images/uwg-logo-2022.jpg" class="img-fluid" /></a>
+            <h5 class="ps-4">People</h5>
+            <ul class="navbar-nav ms-auto d-flex flex-row">
+                <li class="nav-item me-3">
+                    <a asp-controller="Home" asp-action="Index">Logout</a>
+                </li>
+                <li class="nav-item">
+                    ADMIN123
+                </li>
+            </ul>
+        </div>
+    </header>
+</div>
+
+<div class="container col-lg-6 pt-5">
+    <div class="d-flex align-items-center">
+        <h1>People</h1>
+        <form class="ms-auto d-flex flex-row">
+            <input placeholder="Search Users" />
+            <button class="btn btn-primary ms-2">Add User</button>
+        </form>
+    </div>
+</div>
+
+<!--From PeoplePage.js-->
+<div class="container col-lg-7 pt-3">
+    <div class="d-flex flex-row justify-content-between align-items-center border roundered p-3">
+        <h4>Name</h4>
+        <h4>Roles (top 5)</h4>
+        <h4>Actions</h4>
+    </div>
+    <!--Loop through database for people-->
+    <div class="pt-3">
+        <div class="d-flex flex-row justify-content-between align-items-center border roundered p-3">
+            <div><b>TestNoPrivlieges <br /> no email provided</b></div>
+            <div><a class="btn btn-dark">No Role</a></div>
+            <div>
+                <a class="btn btn-purple"><span class="fas fa-pencil-alt"></span></a>
+                <a class="btn btn-purple"><span class="fas fa-trash"></span></a>
+            </div>
+        </div>
+    </div>
+</div>

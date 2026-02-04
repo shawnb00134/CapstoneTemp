@@ -1,0 +1,131 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\CMSWebClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3125BEC2-C8D9-4D78-B571-8A8DFE1AF636}|CMSWebClient\\CMSWebClient.csproj|c:\\users\\wd35b\\desktop\\uwg-cam-contentmanagementsystem\\cmswebclient\\cmswebclient\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3125BEC2-C8D9-4D78-B571-8A8DFE1AF636}|CMSWebClient\\CMSWebClient.csproj|solutionrelative:cmswebclient\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3125BEC2-C8D9-4D78-B571-8A8DFE1AF636}|CMSWebClient\\CMSWebClient.csproj|c:\\users\\wd35b\\desktop\\uwg-cam-contentmanagementsystem\\cmswebclient\\cmswebclient\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3125BEC2-C8D9-4D78-B571-8A8DFE1AF636}|CMSWebClient\\CMSWebClient.csproj|solutionrelative:cmswebclient\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3125BEC2-C8D9-4D78-B571-8A8DFE1AF636}|CMSWebClient\\CMSWebClient.csproj|c:\\users\\wd35b\\desktop\\uwg-cam-contentmanagementsystem\\cmswebclient\\cmswebclient\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3125BEC2-C8D9-4D78-B571-8A8DFE1AF636}|CMSWebClient\\CMSWebClient.csproj|solutionrelative:cmswebclient\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3125BEC2-C8D9-4D78-B571-8A8DFE1AF636}|CMSWebClient\\CMSWebClient.csproj|c:\\users\\wd35b\\desktop\\uwg-cam-contentmanagementsystem\\cmswebclient\\cmswebclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3125BEC2-C8D9-4D78-B571-8A8DFE1AF636}|CMSWebClient\\CMSWebClient.csproj|solutionrelative:cmswebclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\CMSWebClient\\CMSWebClient\\appsettings.json",
+              "RelativeDocumentMoniker": "CMSWebClient\\appsettings.json",
+              "ToolTip": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\CMSWebClient\\CMSWebClient\\appsettings.json",
+              "RelativeToolTip": "CMSWebClient\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-04T06:39:50.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthorizationController.cs",
+              "DocumentMoniker": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\CMSWebClient\\CMSWebClient\\Controllers\\AuthorizationController.cs",
+              "RelativeDocumentMoniker": "CMSWebClient\\Controllers\\AuthorizationController.cs",
+              "ToolTip": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\CMSWebClient\\CMSWebClient\\Controllers\\AuthorizationController.cs",
+              "RelativeToolTip": "CMSWebClient\\Controllers\\AuthorizationController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAQwIAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T06:31:02.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\CMSWebClient\\CMSWebClient\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "CMSWebClient\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\CMSWebClient\\CMSWebClient\\Models\\AppUser.cs",
+              "RelativeToolTip": "CMSWebClient\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T06:30:34.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\CMSWebClient\\CMSWebClient\\Program.cs",
+              "RelativeDocumentMoniker": "CMSWebClient\\Program.cs",
+              "ToolTip": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\CMSWebClient\\CMSWebClient\\Program.cs",
+              "RelativeToolTip": "CMSWebClient\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T04:05:50.291Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 233,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

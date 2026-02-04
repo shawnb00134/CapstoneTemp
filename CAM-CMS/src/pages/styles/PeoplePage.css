@@ -1,0 +1,164 @@
+/* Styling for the people page */
+.people-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.people-page button {
+    background-color: var(--var-accent-color);
+    color: var(--var-alternate-text-color);
+    border: none;
+    border-radius: 0.5em;
+    transition: var(--var-transition);
+    transition-duration: 0.25s;
+}
+
+.people-page button:hover {
+    background-color: var(--var-accent-color-hover);
+    cursor: pointer;
+    transform: scale(1.05);
+    border-radius: 0.75em;
+}
+
+.people-page-header {
+    margin-top: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.people-page-header-left,
+.people-page-header-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.people-page-content {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1.5em;
+}
+
+.people-page-content-header {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--var-seperator);
+    border-width: 1px;
+    border-radius: 1em;
+    padding: 0.75em;
+    margin-bottom: 0.5em;
+}
+
+.people-page-content-header * {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin: 0
+}
+
+.people-page-content-header *:nth-child(2),
+.user-row > div:nth-child(2) {
+    width: 50%;
+}
+
+.people-page-header-right input {
+    width: 20rem;
+    height: 2.25rem;
+    padding-left: 1.5em;
+    margin-right: 1.5rem;
+    border: none;
+    border-radius: 0.5em;
+    box-shadow: 0px 2px 7.5px 1px rgba(0, 0, 0, 0.25);
+    background: #FBF9FF;
+    flex-shrink: 0;
+}
+
+.people-page-header-right button {
+    width: 7.5rem;
+    height: 2.25rem;
+}
+
+.people-page-content-people {
+    width: 75%;
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.user-row {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--var-seperator);
+    border-width: 1px;
+    border-radius: 1em;
+    padding: 0.75em;
+}
+
+.user-row * {
+    width: 25%;
+    margin: 0
+}
+
+.user-row-name {
+    margin-left: 1.5em;
+}
+
+.user-row-name h5 {
+    margin-left: 1em;
+}
+
+.user-row-roles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-row-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-row-actions button {
+    width: 3rem !important;
+    height: 3rem;
+    margin: 0 0.5em;
+}
+
+.user-row-role,
+.user-row-no-role {
+    display: flex;
+    width: fit-content;
+    height: 1.75rem;
+    padding: 0.25rem 0.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5em;
+    color: white;
+}
+
+.user-row-no-role {
+    background-color: black;
+}
+
+.icon {
+    width: 1.5rem;
+}
+
+@media screen and (max-height: 600px) {
+    .people-page-content-people {
+        height: 75%;
+    }
+}

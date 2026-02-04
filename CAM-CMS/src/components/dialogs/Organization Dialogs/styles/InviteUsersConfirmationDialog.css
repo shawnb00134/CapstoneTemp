@@ -1,0 +1,114 @@
+.invite-confirmation-dialog {
+  width: 40%;
+  height: 40%;
+  min-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.invite-confirmation-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.invte-confirmation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: var(--var-background-color);    
+  color: black;
+}
+
+.invite-confirmation-header button {
+  cursor: pointer;
+  background: var(--var-accent-color);
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  margin-left: 50%;
+}
+
+.invite-confirmation-header button:hover {
+  background-color: var(--var-accent-color-hover);
+}
+.invite-confirmation-body {
+  display: flex;
+  flex-direction: row;
+  overflow-y: auto;
+  background-color: #fff;
+}
+
+.invite-confirmation-body textarea {
+  resize: none;
+  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.invite-confirmation-left {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 1%;
+}
+.invite-confirmation-right {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 1%;
+}
+
+.invite-confirmation-invites textarea {
+  min-height: 200px;
+}
+
+.invite-confirmation-email-message textarea {
+  min-height: 200px;
+}
+
+.invite-confirmation-email-subject textarea { 
+  min-height: 60px;
+}
+
+.invite-confirmation-sms textarea {
+  min-height: 60px;
+}
+
+.confirmation-edit-button,
+.confirmation-send-button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  width: 100px;
+  justify-self: center;
+  align-self: center;
+}
+
+.confirmation-edit-button {
+  background-color: var(--var-accent-color);
+  color: white;
+}
+
+.confirmation-send-button {
+  background-color: var(--var-accent-color);
+  color: white;
+}
+
+.confirmation-edit-button:hover {
+  background-color: var(--var-accent-color-hover);
+}
+
+.confirmation-send-button:hover {
+  background-color: var(--var-accent-color-hover);
+}

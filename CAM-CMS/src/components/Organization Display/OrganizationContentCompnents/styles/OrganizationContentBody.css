@@ -1,0 +1,29 @@
+.content-role-dropdown select {
+    width: 20%;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.content-role-dropdown {
+    align-self: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.content-packages-body {
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    margin: 0;
+}
+.org-content-body {
+    flex-grow: 1; 
+    overflow-y: auto;
+    overflow-x: auto;
+    padding: 10px;
+
+}

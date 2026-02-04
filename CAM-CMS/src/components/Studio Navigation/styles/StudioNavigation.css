@@ -1,0 +1,58 @@
+
+.studio-nav {
+    height: 100%;
+    width: 20%;
+    background-color: var(--var-dark-grey);
+    color: var(--var-alternate-text-color);
+}
+
+.studio-nav button {
+    border: solid 1px var(--var-alternate-text-color);
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--var-alternate-text-color);
+    color: var(--var-dark-grey);
+    transition: var(--var-transition);
+}
+
+.studio-nav button:hover {
+    transform: scale(1.25);
+}
+
+[id^='studio-nav-page-'][ id$='-caret'] {
+    rotate: 0deg;
+    transition: var(--var-transition);
+}
+
+[id^='studio-nav-page-'][ id$='-caret'].collapsed {
+    rotate: 180deg;
+}
+
+.studio-nav-header {
+    margin: 0;
+    padding: 1em;
+    height: 5%;
+    background-color: var(--var-light-grey);
+}
+
+.selected-page {
+    background-color: var(--var-light-grey);
+}
+
+.studio-nav-pages {
+    height: 85%;
+    overflow-y: auto;
+}
+
+.studio-nav-package *, .studio-nav-folder-header *, 
+.studio-nav-folder-header *, .studio-nav-folder-item * {
+    margin: 0.5em 0.5em;
+    cursor: pointer;
+}
+
+@media screen and (max-height: 1000px) {
+    .studio-nav-header {
+        height: fit-content;
+    }
+}

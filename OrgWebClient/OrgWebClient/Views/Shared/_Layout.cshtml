@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/css/bootstrap.min.css">
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <header>
+            <div class="header d-flex align-items-center pe-5">
+                <img src="~/images/ShofTechLogo.png" class="img-fluid" />
+                <ul class="navbar-nav ms-auto d-flex flex-row">
+                    <li class="nav-item me-3">
+                        <a asp-controller="Home" asp-action="Index">Logout</a>
+                    </li>
+                    <li class="nav-item">
+                        ADMIN123
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

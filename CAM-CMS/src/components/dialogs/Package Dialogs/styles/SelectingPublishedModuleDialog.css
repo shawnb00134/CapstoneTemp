@@ -1,0 +1,22 @@
+.published-module-dialog {
+	width: 20%;
+	box-shadow: var(--var-background-shadow);
+	border: none;
+}
+.published-module-item {
+    margin: 5px;
+	padding: 2px;
+    display: flex;
+    align-items: flex-start;
+	transition: 0.2s ease-in-out;	
+	border: none;
+	border-radius: 0.25em;
+}
+.published-module-item:hover {
+	background-color: var(--var-background-color);
+	cursor: pointer;
+	scale: 1.05;
+}
+.published-module-item.selected {
+	font-weight: bold;
+}

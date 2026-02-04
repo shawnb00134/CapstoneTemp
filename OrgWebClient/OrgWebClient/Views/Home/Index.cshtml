@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "S.H.I.T - Student Log In";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-8  col-md-6 col-lg-5 border rounded shadow-lg p-4 mt-4">
+            <div class="d-flex flex-column align-items-center">
+                <h2>South Harmon Institute of College</h2>
+                <h4>Student Log In</h4>
+                <p>Enter your username and password to log in.</p>
+            </div>
+            <div>
+                <form>
+                    <div class="row">
+                        <input class="form-control" placeholder="Username"/>
+                        <span></span>
+                    </div>
+                    <div class="row pt-2">
+                        <input class="form-control" placeholder="Password"/>
+                        <span></span>
+                    </div>
+                    <div class=" gap-2 d-flex flex-column pt-4">
+                            <a asp-controller="Home" asp-action="Dashboard" class="btn btn-Login">Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

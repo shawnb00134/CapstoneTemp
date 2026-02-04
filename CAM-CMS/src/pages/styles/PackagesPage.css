@@ -1,0 +1,140 @@
+.package-display {
+    padding: 0 5em;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-y: hidden;
+    flex-direction: column;
+}
+
+.package-display button {
+    background-color: var(--var-accent-color);
+    color: var(--var-alternate-text-color);
+    border: none;
+    border-radius: 10%;
+    transition: 0.25s;
+}
+
+.package-heading {
+    padding-top: 2.5em;
+    height: fit-content !important;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: var(--var-seperator);
+}
+
+.package-heading button {
+    margin: 0 1em;
+    width: 5em;
+    height: 2.75em;
+    font-size: medium;
+}
+
+.package-display button:hover {
+    background-color: var(--var-accent-color-hover);
+    transform: scale(1.05);
+}
+
+.package-heading-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
+
+.package-heading-meta-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 40%;
+}
+
+.package-heading-meta-data-icon {
+    color: #24a0ed;
+    z-index: 1;
+    transition: var(--var-transition);
+    transition-duration: 0.25s;
+}
+
+.package-heading-meta-data-icon:hover {
+    color: var(--var-accent-color);
+    transform: scale(1.25);
+    cursor: pointer;
+}
+
+.package-heading-meta-data .package-meta-data {
+    position: absolute;
+    z-index: 0;
+    background: var(--var-background-color);
+    color: var(--var-text-color);
+    padding: 0.5em;
+    border-radius: 0.5em;
+    box-shadow: var(--var-background-shadow);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    transition: var(--var-transition);
+    transition-duration: 0.25s;
+}
+
+.package-meta-data h5 {
+    margin: 0.5em;
+    transition: var(--var-transition);
+    transition-duration: 0.25s;
+}
+
+.package-meta-data h5.data-link {
+    text-decoration: underline;
+}
+
+.package-meta-data h5.data-link:hover {
+    color: var(--var-accent-color);
+    cursor: pointer;
+}
+
+.package-heading-right {
+    justify-content: end;
+    width: 50%;
+}
+
+.package-heading-left h1 {
+    margin-right: 2em;
+}
+
+.package-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+    border-bottom: var(--var-seperator);
+}
+
+.package-content > div {
+    width: 95%;
+    overflow-y: scroll;
+}
+
+@media screen and (max-width: 1300px) {
+    .package-heading h1 {
+        font-size: larger;
+    }
+
+    .package-heading button {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .package-heading h1 {
+        font-size: medium;
+    }
+
+    .package-heading button {
+        font-size: x-small;
+    }
+}

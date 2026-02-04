@@ -1,0 +1,113 @@
+.package-folder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow-y: hidden;
+    padding: 0 1em;
+    border: var(--var-seperator);
+    border-width: 2px;
+    border-radius: 0.25em;
+    border-style: dashed;
+    transition: var(--var-transition);
+    transition-duration: 0.25s;
+}
+
+.package-folder:hover {
+    border-color: var(--var-accent-color-hover);
+}
+
+.package-folder header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.package-folder-header-right button {
+    margin: 0 0.5em;
+    width: 2em;
+    height: 1.5em;
+}
+
+.package-folder header h3 * {
+    margin: 0 0.25em;
+}
+
+.package-folder-items {
+    width: 100%;
+}
+.package-folder-items div[id^=package-folder-items]{
+    margin-top: 0; 
+    opacity: 1;
+    transition: var(--var-transition);
+    overflow-y: hidden;
+
+}
+
+
+/* Apply animation and styles to the collapsed elements */
+.package-folder-items div[id^=package-folder-items].collapsed {
+    display: none;
+}
+
+
+.package-folder-items button[id^=package-folder-carrot] {
+    background-color: transparent;
+    background-color: var(--var-accent-color);
+    rotate: 0deg;
+}
+ 
+.package-folder button[id^=package-folder-carrot].collapsed {
+    rotate: 180deg;
+}
+.folder-item-drop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25em;
+    border-color: var(--var-accent-color);
+    transition: var(--var-transition);
+    transition-duration: 0.5s;
+}
+.folder-item-drop.folder-dragging {
+    display: flex;
+    height: 2.5em;
+    border: var(--var-seperator);
+    border-color: var(--var-accent-color);
+    padding: .3em;
+    margin: .3em;
+    
+}
+.folder-item-drop.folder-dragging::after {
+    content: "Drop Here";
+    font-size: large;
+}
+[id^="folder-module-"] {
+    border: var(--var-seperator);
+    border-width: 1.5px;
+    border-radius: 0.25em;
+    border-style: solid;
+	padding: 0.5em;
+	margin: 0.5em;
+	transition: 0.20s ease-out;
+}
+.module-drop-location.module-dragging {
+    border: var(--var-seperator);
+    border-width: 0.25em;
+    padding: 1em;
+    border-color: var(--var-accent-color);
+}
+.folder-swap.folder-dragging {
+    border: var(--var-seperator);
+    width: 60%;
+    border-width: 0.25em;
+    padding: .65em;
+    border-color: var(--var-accent-color);
+}
+.folder-swap.folder-dragging::after {
+    content: "Drop Here for reordering";
+    font-size: large;
+}

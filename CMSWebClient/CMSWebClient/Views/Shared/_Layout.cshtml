@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/css/bootstrap.min.css">
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+          crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <header>
+            <div class="header d-flex align-items-center pe-5">
+                <img src="~/images/uwg-logo-2022.jpg" class="img-fluid" />
+                <ul class="navbar-nav ms-auto d-flex flex-row">
+                    <li class="nav-item me-3">
+                        <a asp-controller="Home" asp-action="Index">Logout</a>
+                    </li>
+                    <li class="nav-item">
+                        ADMIN123
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
+
+    <div>
+        @RenderBody()
+        
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    
+        <!-- Add this line to render the Scripts section -->
+        @await RenderSectionAsync("Scripts", required: false)
+    </div>
+</body>
+</html>

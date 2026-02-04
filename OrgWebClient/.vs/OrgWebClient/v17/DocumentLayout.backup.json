@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\OrgWebClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2774B171-83E1-4AB7-9D53-B05B8C8CA8E1}|OrgWebClient\\OrgWebClient.csproj|c:\\users\\wd35b\\desktop\\uwg-cam-contentmanagementsystem\\orgwebclient\\orgwebclient\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2774B171-83E1-4AB7-9D53-B05B8C8CA8E1}|OrgWebClient\\OrgWebClient.csproj|solutionrelative:orgwebclient\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2774B171-83E1-4AB7-9D53-B05B8C8CA8E1}|OrgWebClient\\OrgWebClient.csproj|c:\\users\\wd35b\\desktop\\uwg-cam-contentmanagementsystem\\orgwebclient\\orgwebclient\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2774B171-83E1-4AB7-9D53-B05B8C8CA8E1}|OrgWebClient\\OrgWebClient.csproj|solutionrelative:orgwebclient\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2774B171-83E1-4AB7-9D53-B05B8C8CA8E1}|OrgWebClient\\OrgWebClient.csproj|c:\\users\\wd35b\\desktop\\uwg-cam-contentmanagementsystem\\orgwebclient\\orgwebclient\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2774B171-83E1-4AB7-9D53-B05B8C8CA8E1}|OrgWebClient\\OrgWebClient.csproj|solutionrelative:orgwebclient\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2774B171-83E1-4AB7-9D53-B05B8C8CA8E1}|OrgWebClient\\OrgWebClient.csproj|c:\\users\\wd35b\\desktop\\uwg-cam-contentmanagementsystem\\orgwebclient\\orgwebclient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2774B171-83E1-4AB7-9D53-B05B8C8CA8E1}|OrgWebClient\\OrgWebClient.csproj|solutionrelative:orgwebclient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2774B171-83E1-4AB7-9D53-B05B8C8CA8E1}|OrgWebClient\\OrgWebClient.csproj|c:\\users\\wd35b\\desktop\\uwg-cam-contentmanagementsystem\\orgwebclient\\orgwebclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2774B171-83E1-4AB7-9D53-B05B8C8CA8E1}|OrgWebClient\\OrgWebClient.csproj|solutionrelative:orgwebclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\OrgWebClient\\OrgWebClient\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "OrgWebClient\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\OrgWebClient\\OrgWebClient\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "OrgWebClient\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-04T00:00:42.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\OrgWebClient\\OrgWebClient\\Program.cs",
+              "RelativeDocumentMoniker": "OrgWebClient\\Program.cs",
+              "ToolTip": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\OrgWebClient\\OrgWebClient\\Program.cs",
+              "RelativeToolTip": "OrgWebClient\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T23:51:39.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\OrgWebClient\\OrgWebClient\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "OrgWebClient\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\OrgWebClient\\OrgWebClient\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "OrgWebClient\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T23:49:40.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\OrgWebClient\\OrgWebClient\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "OrgWebClient\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\OrgWebClient\\OrgWebClient\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "OrgWebClient\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-03T23:49:11.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\OrgWebClient\\OrgWebClient\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "OrgWebClient\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\OrgWebClient\\OrgWebClient\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "OrgWebClient\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-03T23:48:59.112Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 233,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2657 @@
+[
+  {
+    "ContainingType": "CAMCMSServer.Controller.AuthorizationController",
+    "Method": "Authorize",
+    "RelativePath": "Authorization",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "CAMCMSServer.Model.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.AuthorizationController",
+    "Method": "AuthorizeAnyFolder",
+    "RelativePath": "Authorization/AnyFolder/-{userId}\u0026{userAccessToken}\u0026{request}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.AuthorizationController",
+    "Method": "AuthorizeAnyOrg",
+    "RelativePath": "Authorization/AnyOrg-{userId}\u0026{userAccessToken}\u0026{request}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.AuthorizationController",
+    "Method": "CheckToken",
+    "RelativePath": "Authorization/CheckToken-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.AuthorizationController",
+    "Method": "AuthorizeFolder",
+    "RelativePath": "Authorization/Folder-{userId}\u0026{userAccessToken}\u0026{request}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "folderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.AuthorizationController",
+    "Method": "Login",
+    "RelativePath": "Authorization/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "CAMCMSServer.Model.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.AuthorizationController",
+    "Method": "AuthorizeOrg",
+    "RelativePath": "Authorization/Org-{userId}\u0026{userAccessToken}\u0026{request}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "orgId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.AuthorizationController",
+    "Method": "AuthorizePackage",
+    "RelativePath": "Authorization/Package/-{userId}\u0026{userAccessToken}\u0026{request}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.AuthorizationController",
+    "Method": "CheckUserReadPrivilege",
+    "RelativePath": "Authorization/Read/-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.AuthorizationController",
+    "Method": "RefreshToken",
+    "RelativePath": "Authorization/RefreshToken-{userRefreshToken}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRefreshToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.AuthorizationController",
+    "Method": "AuthorizeSystem",
+    "RelativePath": "Authorization/System-{userId}\u0026{userAccessToken}\u0026{request}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ContentRoleController",
+    "Method": "GetAll",
+    "RelativePath": "ContentRole-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ContentRoleController",
+    "Method": "GetAllArchetypes",
+    "RelativePath": "ContentRole/Archetypes-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ContentRoleController",
+    "Method": "AddContentRole",
+    "RelativePath": "ContentRole/Create-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contentRoleRequest",
+        "Type": "CAMCMSServer.Controller.ContentRoleController\u002BContentRoleRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ElementController",
+    "Method": "GetAll",
+    "RelativePath": "Element-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ElementController",
+    "Method": "CreateElement",
+    "RelativePath": "Element/Create-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ConfirmedDelete",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ElementId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TypeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Citation",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Content",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ExternalSource",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Tags",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "LibraryFolderId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedAt",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UpdatedAt",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedBy",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "UpdatedBy",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FormFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ElementType.ElementType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ElementType.Link",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ElementController",
+    "Method": "DeleteElement",
+    "RelativePath": "Element/Delete-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "element",
+        "Type": "CAMCMSServer.Model.Element",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ElementController",
+    "Method": "GetElementById",
+    "RelativePath": "Element/GetById-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "elementId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ElementController",
+    "Method": "GetElementsAsync",
+    "RelativePath": "Element/LibraryLoad-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "folder",
+        "Type": "CAMCMSServer.Model.LibraryFolder",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ElementController",
+    "Method": "UpdateElement",
+    "RelativePath": "Element/Update-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "element",
+        "Type": "CAMCMSServer.Model.Element",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ElementController",
+    "Method": "UpdateLibraryId",
+    "RelativePath": "Element/UpdateLibraryId-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "element",
+        "Type": "CAMCMSServer.Model.Element",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ElementController",
+    "Method": "UpdateWithFile",
+    "RelativePath": "Element/UpdateWithFile-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ConfirmedDelete",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ElementId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TypeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Citation",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Content",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ExternalSource",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Tags",
+        "Type": "System.String[]",
+        "IsRequired": false
+      },
+      {
+        "Name": "LibraryFolderId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedAt",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UpdatedAt",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreatedBy",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "UpdatedBy",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FormFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ElementType.ElementType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ElementType.Link",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ElementSetController",
+    "Method": "UpdateElementSet",
+    "RelativePath": "ElementSet/Update-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "elementSet",
+        "Type": "CAMCMSServer.Model.ElementSet",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.LibraryFolderController",
+    "Method": "GetFoldersAsync",
+    "RelativePath": "LibraryFolder-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.LibraryFolderController",
+    "Method": "CreateLibraryFolderAsync",
+    "RelativePath": "LibraryFolder/Create-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "folder",
+        "Type": "CAMCMSServer.Model.LibraryFolder",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.LibraryFolderController",
+    "Method": "DeleteLibraryFolderAsync",
+    "RelativePath": "LibraryFolder/Delete-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "folder",
+        "Type": "CAMCMSServer.Model.LibraryFolder",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.LibraryFolderController",
+    "Method": "GetFolderItems",
+    "RelativePath": "LibraryFolder/LoadItems-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "libraryFolder",
+        "Type": "CAMCMSServer.Model.LibraryFolder",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleController",
+    "Method": "GetModules",
+    "RelativePath": "Module-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleEditsController",
+    "Method": "AddElement",
+    "RelativePath": "Module/AddElement-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newElement",
+        "Type": "CAMCMSServer.Model.ElementLocation",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleEditsController",
+    "Method": "AddSet",
+    "RelativePath": "Module/AddSet-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newSet",
+        "Type": "CAMCMSServer.Model.ElementSet",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleController",
+    "Method": "CreateModule",
+    "RelativePath": "Module/Create-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "module",
+        "Type": "CAMCMSServer.Model.Module",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleController",
+    "Method": "DeleteModule",
+    "RelativePath": "Module/Delete-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "module",
+        "Type": "CAMCMSServer.Model.Module",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleEditsController",
+    "Method": "DeleteElement",
+    "RelativePath": "Module/DeleteElement-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteElement",
+        "Type": "CAMCMSServer.Model.ElementLocation",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleEditsController",
+    "Method": "DeleteSet",
+    "RelativePath": "Module/DeleteSet-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteSet",
+        "Type": "CAMCMSServer.Model.ElementSet",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleEditsController",
+    "Method": "UpdateElement",
+    "RelativePath": "Module/EditElement-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedElement",
+        "Type": "CAMCMSServer.Model.ElementLocation",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleEditsController",
+    "Method": "UpdateSet",
+    "RelativePath": "Module/EditSet-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedSet",
+        "Type": "CAMCMSServer.Model.ElementSet",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleController",
+    "Method": "HasPublishedModule",
+    "RelativePath": "Module/HasPublished-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "module",
+        "Type": "CAMCMSServer.Model.Module",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleController",
+    "Method": "GetModulesAsync",
+    "RelativePath": "Module/LibraryLoad-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "folder",
+        "Type": "CAMCMSServer.Model.LibraryFolder",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleController",
+    "Method": "GetModule",
+    "RelativePath": "Module/Load-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "module",
+        "Type": "CAMCMSServer.Model.Module",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleController",
+    "Method": "GetModulesById",
+    "RelativePath": "Module/LoadById-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleController",
+    "Method": "UpdateLocationAttribute",
+    "RelativePath": "Module/LocationAttributeUpdate-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "location",
+        "Type": "CAMCMSServer.Model.ElementLocation",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleEditsController",
+    "Method": "MoveElement",
+    "RelativePath": "Module/MoveElement-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedElement",
+        "Type": "CAMCMSServer.Model.ElementLocation",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleEditsController",
+    "Method": "MoveElementSet",
+    "RelativePath": "Module/MoveElementSet-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locations",
+        "Type": "System.Collections.Generic.List\u00601[[CAMCMSServer.Model.ElementLocation, CAM-CMS-Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleEditsController",
+    "Method": "MoveElementSetPlace",
+    "RelativePath": "Module/MoveElementSetPlace-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locations",
+        "Type": "System.Collections.Generic.List\u00601[[CAMCMSServer.Model.ElementLocation, CAM-CMS-Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleEditsController",
+    "Method": "MoveSet",
+    "RelativePath": "Module/MoveSet-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedSet",
+        "Type": "CAMCMSServer.Model.ElementSet",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleEditsController",
+    "Method": "SwapElement",
+    "RelativePath": "Module/SwapElement-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedLocation",
+        "Type": "CAMCMSServer.Model.ElementLocation",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleController",
+    "Method": "UpdateModule",
+    "RelativePath": "Module/Update-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "module",
+        "Type": "CAMCMSServer.Model.Module",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleController",
+    "Method": "UpdateModuleLibraryIdAsync",
+    "RelativePath": "Module/UpdateFolderId-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "module",
+        "Type": "CAMCMSServer.Model.Module",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.ModuleController",
+    "Method": "UpdateModuleLibraryIdWithElementsAsync",
+    "RelativePath": "Module/UpdateFolderIdWithElements-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "module",
+        "Type": "CAMCMSServer.Model.Module",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.OrganizationController",
+    "Method": "GetAllAuthorizedOrganizations",
+    "RelativePath": "Organization-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.OrganizationController",
+    "Method": "CreateOrganization",
+    "RelativePath": "Organization/Create-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organization",
+        "Type": "CAMCMSServer.Model.Organization",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.OrganizationController",
+    "Method": "DeleteOrganization",
+    "RelativePath": "Organization/Delete-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.OrganizationController",
+    "Method": "GetOrganizationById",
+    "RelativePath": "Organization/GetById-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.OrganizationContentRoleController",
+    "Method": "CreateOrganization",
+    "RelativePath": "OrganizationContentRole/Create-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizationContentRole",
+        "Type": "CAMCMSServer.Model.OrganizationContentRole",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.OrganizationContentRoleController",
+    "Method": "DeleteOrganizationContentRole",
+    "RelativePath": "OrganizationContentRole/Delete-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizationContentRoleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.OrganizationContentRoleController",
+    "Method": "GetContentRoles",
+    "RelativePath": "OrganizationContentRole/GetContentRoles-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.OrganizationPackageController",
+    "Method": "GetAllPackageByOrganizationId",
+    "RelativePath": "OrganizationPackage/GetAllPackageByOrganizationId-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CAMCMSServer.Model.Package, CAM-CMS-Server, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.OrganizationPackageController",
+    "Method": "GetOrganizationById",
+    "RelativePath": "OrganizationPackage/GetByPackageId-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.OrganizationPackageController",
+    "Method": "UpdateAssociatedOrganizations",
+    "RelativePath": "OrganizationPackage/UpdateAssociatedOrganizations-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageAndOrganizations",
+        "Type": "CAMCMSServer.Model.PackageAndOrganizations",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.OrganizationPackageController",
+    "Method": "UpdateAssociatedPackages",
+    "RelativePath": "OrganizationPackage/UpdateAssociatedPackages-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "organizationAndPackages",
+        "Type": "CAMCMSServer.Model.OrganizationAndPackages",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PackageController",
+    "Method": "GetAll",
+    "RelativePath": "Package-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PackageController",
+    "Method": "AddPackageFolder",
+    "RelativePath": "Package/AddFolder-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "folder",
+        "Type": "CAMCMSServer.Model.PackageFolder",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PackageController",
+    "Method": "CreatePackage",
+    "RelativePath": "Package/Create-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "package",
+        "Type": "CAMCMSServer.Model.Package",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PackageController",
+    "Method": "DeletePackage",
+    "RelativePath": "Package/Delete-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "package",
+        "Type": "CAMCMSServer.Model.Package",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PackageController",
+    "Method": "DeletePackageFolder",
+    "RelativePath": "Package/DeleteFolder-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageFolder",
+        "Type": "CAMCMSServer.Model.PackageFolder",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PackageController",
+    "Method": "GetFolderModules",
+    "RelativePath": "Package/GetFolderModules-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageFolder",
+        "Type": "CAMCMSServer.Model.PackageFolder",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PackageController",
+    "Method": "GetSubFolders",
+    "RelativePath": "Package/GetSubFolders-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageFolder",
+        "Type": "CAMCMSServer.Model.PackageFolder",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PackageController",
+    "Method": "GetPackageById",
+    "RelativePath": "Package/Load-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PackageController",
+    "Method": "MovePackageFolder",
+    "RelativePath": "Package/MoveFolder-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageFolder",
+        "Type": "CAMCMSServer.Model.PackageFolder",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PackageController",
+    "Method": "ReorderPackageFolder",
+    "RelativePath": "Package/ReorderFolder-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageFolder",
+        "Type": "CAMCMSServer.Model.PackageFolder",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PackageController",
+    "Method": "UpdatePackage",
+    "RelativePath": "Package/Update-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "package",
+        "Type": "CAMCMSServer.Model.Package",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PackageController",
+    "Method": "UpdatePackageFolder",
+    "RelativePath": "Package/UpdateFolder-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "packageFolder",
+        "Type": "CAMCMSServer.Model.PackageFolder",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PackageFolderModuleController",
+    "Method": "GetAll",
+    "RelativePath": "PackageFolderModule-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PackageFolderModuleController",
+    "Method": "CreatePackageFolderModule",
+    "RelativePath": "PackageFolderModule/Create-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "module",
+        "Type": "CAMCMSServer.Model.PackageFolderModule",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PackageFolderModuleController",
+    "Method": "DeletePublishedModule",
+    "RelativePath": "PackageFolderModule/DeleteById-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "module",
+        "Type": "CAMCMSServer.Model.PackageFolderModule",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PackageFolderModuleController",
+    "Method": "GetPublishedModuleById",
+    "RelativePath": "PackageFolderModule/GetById-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "publishedModuleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PackageFolderModuleController",
+    "Method": "UpdatePackageFolderModule",
+    "RelativePath": "PackageFolderModule/Update-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "module",
+        "Type": "CAMCMSServer.Model.PackageFolderModule",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PackageFolderModuleController",
+    "Method": "UpdatePackageModuleOrder",
+    "RelativePath": "PackageFolderModule/UpdateOrder-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "module",
+        "Type": "CAMCMSServer.Model.PackageFolderModule",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PublishedModuleController",
+    "Method": "GetAll",
+    "RelativePath": "PublishedModule-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PublishedModuleController",
+    "Method": "CreatePublishedModule",
+    "RelativePath": "PublishedModule/Create-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "module",
+        "Type": "CAMCMSServer.Model.PublishedModule",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PublishedModuleController",
+    "Method": "DeletePublishedModule",
+    "RelativePath": "PublishedModule/Delete-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "module",
+        "Type": "CAMCMSServer.Model.PublishedModule",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PublishedModuleController",
+    "Method": "GetPublishedModuleById",
+    "RelativePath": "PublishedModule/GetById-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "publishedModuleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.PublishedModuleController",
+    "Method": "UpdatePublishedModule",
+    "RelativePath": "PublishedModule/Update-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "module",
+        "Type": "CAMCMSServer.Model.PublishedModule",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.StudioAsideController",
+    "Method": "GetAll",
+    "RelativePath": "StudioAside-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.UserController",
+    "Method": "GetAllTempUsers",
+    "RelativePath": "TempUsers-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "User-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.UserController",
+    "Method": "AddUser",
+    "RelativePath": "User/AddUser-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CAMCMSServer.Model.Requests.UserAddRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.UserController",
+    "Method": "GetAllContexts",
+    "RelativePath": "User/AllContexts-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.UserController",
+    "Method": "GetAllPrivileges",
+    "RelativePath": "User/AllPrivileges-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.UserController",
+    "Method": "GetAllRoles",
+    "RelativePath": "User/AllRoles-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.UserController",
+    "Method": "CheckAndUpdateUsers",
+    "RelativePath": "User/CheckAndUpdateUsers-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.UserController",
+    "Method": "CreateUsersRole",
+    "RelativePath": "User/CreateUserPrivileges-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRoleChange",
+        "Type": "CAMCMSServer.Model.Requests.UserAccessRoleRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.UserController",
+    "Method": "DeleteTempUser",
+    "RelativePath": "User/DeleteTempUser-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteTempUserId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "User/DeleteUser-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteUserId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.UserController",
+    "Method": "DeleteUsersRole",
+    "RelativePath": "User/DeleteUserPrivileges-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRoleChange",
+        "Type": "CAMCMSServer.Model.Requests.UserAccessRoleRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.UserController",
+    "Method": "GetUser",
+    "RelativePath": "User/GetUser-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.UserController",
+    "Method": "IsAdmin",
+    "RelativePath": "User/IsAdmin-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.UserController",
+    "Method": "SignUp",
+    "RelativePath": "User/SignUp-{invitationId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CAMCMSServer.Model.UserSignUpRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "invitationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.UserController",
+    "Method": "UpdateUsersRole",
+    "RelativePath": "User/UpdateUserPrivileges-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRoleChange",
+        "Type": "CAMCMSServer.Model.Requests.UserAccessRoleRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CAMCMSServer.Controller.UserController",
+    "Method": "DemoNotification",
+    "RelativePath": "User/demoNotification-{userId}\u0026{userAccessToken}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userAccessToken",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

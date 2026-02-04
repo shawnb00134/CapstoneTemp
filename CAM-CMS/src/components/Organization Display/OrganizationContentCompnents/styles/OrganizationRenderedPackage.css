@@ -1,0 +1,57 @@
+.content-folder-header {
+    cursor: pointer;
+    user-select: none;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.content-folder-header p {
+    margin-left: 5px;
+}
+
+.content-folder-modules {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.content-folder-subfolders {
+    padding-left: 20px;
+}
+
+.content-module-item {
+    margin-left: 10px;
+}
+
+.content-package-item {
+    border: 1.5px solid var(--var-separator, #ccc); 
+    border-radius: 0.25em;
+    padding: 0.5em;
+    margin: 0.5em;
+    transition: 0.20s ease-out;
+    background-color: #f9f9f9; 
+}
+
+.content-package-item:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+}
+
+.content-packages-list {
+    width: 50%;
+    min-width: 400px;
+    align-self: center;
+}
+
+.content-module-item {
+    margin-left: 10px;
+    display: flex;
+    align-items: center; 
+}
+
+.content-module-item .faBook {
+    margin-right: 10px; 
+}
+
+.content-module-item span {
+    margin-left: 10px; 
+}

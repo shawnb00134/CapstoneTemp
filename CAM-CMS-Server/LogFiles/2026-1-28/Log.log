@@ -1,0 +1,13 @@
+[2026-01-28 22:11:59.799 [Error] Error validating token
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX12741: JWT must have three segments (JWS) or five segments (JWE).
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at CAMCMSServer.Utils.TokenValidator.ValidateAccessToken(String accessToken, String userName) in C:\Users\wd35b\Desktop\UWG-CAM-ContentManagementSystem\CAM-CMS-Server\CAM-CMS-Server\Utils\TokenValidator.cs:line 30
+][2026-01-28 22:11:59.811 [Error] Error validating token
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX12741: JWT must have three segments (JWS) or five segments (JWE).
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at CAMCMSServer.Utils.TokenValidator.ValidateAccessToken(String accessToken, String userName) in C:\Users\wd35b\Desktop\UWG-CAM-ContentManagementSystem\CAM-CMS-Server\CAM-CMS-Server\Utils\TokenValidator.cs:line 30
+][2026-01-28 22:12:08.659 [Error] Error validating token
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX12741: JWT must have three segments (JWS) or five segments (JWE).
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at CAMCMSServer.Utils.TokenValidator.ValidateAccessToken(String accessToken, String userName) in C:\Users\wd35b\Desktop\UWG-CAM-ContentManagementSystem\CAM-CMS-Server\CAM-CMS-Server\Utils\TokenValidator.cs:line 30
+]

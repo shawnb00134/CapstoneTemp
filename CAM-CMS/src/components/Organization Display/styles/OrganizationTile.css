@@ -1,0 +1,29 @@
+.tile-card {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+  }
+  
+  .organization-tile {
+	padding: 0px;
+  }
+  
+  .organization-thumbnail {
+	text-align: center;
+  }
+  
+  .organization-thumbnail img {
+	width: 500px;
+	height: 100px;
+	object-fit: cover;
+	
+  }
+
+  .organization-title {
+	text-align: center;
+  }
+  

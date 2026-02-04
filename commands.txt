@@ -1,0 +1,23 @@
+dotnet dev-certs https --trust
+
+cd db
+
+export PATH="/c/Program Files/PostgreSQL/18/bin:$PATH"
+
+psql --version
+
+chmod +x db-local-setup.sh
+./db-local-setup.sh --pgPwd password --name cam_cms
+
+chmod +x db-run-migration.sh
+./db-run-migration.sh --pgUser postgres --pgPwd password --db-name cam_cms
+
+cd ../
+
+cd CAM-CMS-Server
+
+chmod +x launch-server.sh
+./launch-server.sh
+
+chmod +x launch-web.sh
+./launch-web.sh --dev

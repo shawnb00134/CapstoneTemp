@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="CMSDesktopClient.View.LoginPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CMSDesktopClient.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="White">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,253,0,0" TextWrapping="Wrap" Text="South Harmon Institute of Technology" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" FontSize="48"  Foreground="Black"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,353,0,0" TextWrapping="Wrap" Text="Student Log In" VerticalAlignment="Top" FontSize="16"  Foreground="Black"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,414,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="358" Background="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" BorderBrush="Black" FocusVisualPrimaryBrush="{x:Null}" Foreground="Black" SelectionHighlightColor="{x:Null}" SelectionHighlightColorWhenNotFocused="{x:Null}"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,468,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="358" Background="{x:Null}" BorderBrush="Black" Foreground="Black" SelectionHighlightColorWhenNotFocused="{x:Null}" SelectionHighlightColor="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" FocusVisualPrimaryBrush="{x:Null}"/>
+        <Button Content="Log In" Margin="0,518,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Foreground="Black" Background="#FF6EC1E4" FocusVisualPrimaryBrush="#FF6EC1E4"/>
+
+    </Grid>
+</Page>

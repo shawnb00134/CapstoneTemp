@@ -1,0 +1,132 @@
+.element-dialog {
+    border: none;
+    box-shadow: var(--var-background-shadow);
+    width: 30em;
+    z-index: 150;
+}
+
+#overlay {
+    visibility: hidden;
+    position:fixed;
+    z-index: 100;
+    inset:0;
+    background-color:rgb(0 0 0 / 10%);
+}
+
+.choice-dialog {
+    border: none;
+    box-shadow: var(--var-background-shadow);
+    width: 20em;
+}
+
+.dialog-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.dialog-header > button {
+    width: 20%;
+    height: 3em;
+    align-self: center;
+}#new-element-header > button {
+    width: 10%;
+}
+
+.dialog-content {
+    width: 100%;
+}
+
+.dialog-content input, .dialog-content textarea {
+    margin: 0 1em;
+    display: block;
+}
+
+.dialog-content .row {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+.column input[type="radio"] {
+    width: fit-content;
+}
+
+.dialog-input {
+    width: 100%;
+}
+
+.column textarea {
+    width: 75%;
+}
+
+.description textarea {
+    height: 7.5em;
+    width: 90%;
+}#source-row {
+    width: 100%;
+    margin-left: 0.25em;
+}#source-row input {
+    width: 80%;
+}
+
+.content-row input[type="file"] {
+    width: 90%;
+}
+
+.content-row textarea {
+    height: 15em;
+}
+
+.content-row input[type="file"] {
+    height: 12em;
+}
+
+.dialog-content input[type="submit"], .dialog-content input[type="reset"] {
+    margin-top: 2em;
+    text-align: center;
+    background-color: var(--var-accent-color);
+	border: none;
+	color: var(--var-background-color);
+	border-radius: 0.25em;
+	height: 2em;
+	width: 5em;
+	transition: var(--var-transition);
+}
+
+.dialog-content input[type="submit"]:hover, .dialog-content input[type="reset"]:hover {
+	cursor: pointer;
+	background-color: var(--var-accent-color-hover);
+	transform: scale(1.1);
+}
+
+.radio-row {
+    margin-left: 1em;
+    align-items: center;
+}
+
+.radio-row .column {
+    width: 40%;
+}
+
+.input-textarea {
+    max-width: 93%;
+    width: 93%;
+}
+
+/* Mobile Optimization */
+@media only screen and (width <= 500px) {
+    .element-dialog {
+        margin: 0;
+        left: 2%;
+        width: 90%;
+    }    .dialog-header {
+        margin-bottom: -0.5em;
+    }    .title-row {
+        flex-direction: column;
+    }    .title-row input {
+        margin: 1em;
+        width: 80%
+    }
+}

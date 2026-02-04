@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "UWG CMS - Dashboard";
+}
+
+
+
+<div class="d-flex flex-row justify-content-center gap-4 mt-4">
+    <div class="col-md-2 col-lg-2 border rounded shadow-lg p-3 mt-4">
+        <a asp-controller="People" asp-action="PeopleHome"
+           class="d-flex flex-column align-items-center text-decoration-none text-dark w-100 h-100">
+            <img src="~/images/People.jpg" class="img-fluid"/>
+            <p class="pt-3">People</p>
+        </a>
+    </div>
+    <div class="col-md-2 col-lg-2 border rounded shadow-lg p-3 mt-4">
+        <a asp-controller="Organizations" asp-action="OrganizationPage"
+           class="d-flex flex-column align-items-center text-decoration-none text-dark w-100 h-100">
+            <img src="~/images/Organization.jpg" class="img-fluid"/>
+            <p class="pt-3">Organization</p>
+        </a>
+    </div>
+    <div class="col-md-2 col-lg-2 border rounded shadow-lg p-3 mt-4">
+        <a asp-controller="CAMStudio" asp-action="Studio"
+           class="d-flex flex-column align-items-center text-decoration-none text-dark w-100 h-100">
+            <img src="~/images/CAM-Studio.jpg" class="img-fluid"/>
+            <p class="pt-3">CAM Studio</p>
+        </a>
+    </div>
+</div>
+<div>
+    
+</div>

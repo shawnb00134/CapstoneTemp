@@ -1,0 +1,90 @@
+.module-element-set {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin: 0em 1em;
+    border: var(--var-seperator);
+    border-radius: 0.25em;
+    border-style: dashed;
+    transition: var(--var-transition);
+    transition-duration: 0.25s;
+    overflow: hidden;
+}
+
+.module-element-set-items {
+    width: 100%;
+}
+
+.module-element-set-items div[class^=module-element-set-items].collapsed {
+    margin-top: -100%;
+    transition: var(--var-transition);
+}
+
+.module-element-set-items div[class^=module-element-set-items] {
+    margin-top: 0;
+    transition: var(--var-transition);
+    overflow: hidden;
+}
+
+.module-element-set button[class^='element-carrot'] {
+    color: var(--var-accent-color);
+    background-color: transparent;
+    border: 1px solid var(--var-accent-color);
+    rotate: 0deg;
+}
+
+.module-element-set-carrot button[class^='element-carrot'].collapsed {
+    color: var(--var-accent-color);
+    background-color: transparent;
+    border: 1px solid var(--var-accent-color);
+    rotate: 180deg;
+}
+
+.module-element-set:hover {
+    border-color: var(--var-accent-color-hover);
+}
+
+.module-element-set.element-dragging {
+    border: var(--var-seperator);
+    border-width: 0.25em;
+    border-color: var(--var-accent-color);
+}
+
+.module-element-set-reorder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 0;
+    width: 100%;
+    border-radius: 0.25em;
+    border-color: var(--var-accent-color);
+    transition: var(--var-transition);
+    transition-duration: 0.5s;
+}
+
+.module-element-set-reorder.set-dragging {
+    height: 2.5em;
+    border: var(--var-seperator);
+    border-color: var(--var-accent-color);
+}
+
+.module-element-set-reorder.set-dragging::after {
+    content: 'Drop here';
+    font-size: large;
+}
+
+.module-element-set-items.hidden {
+    display: none;
+}
+
+.module-element-preview.horizontal-layout {
+    display: flex;
+    align-items: center;
+}
+
+.module-element-preview .module-element-set-title {
+    margin-left: 1em;
+}

@@ -1,0 +1,25 @@
+#drop-menu-main-button {
+    border: 1 px solid #000;
+    background-color: var(--var-background-accent-color);
+    border-radius: 3px;
+}
+
+.menu{
+    background-color: transparent;
+    border-radius: 3px;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid red;
+}
+
+.menu-item {
+    border: 1 px solid #000;
+    background-color:transparent;
+    border-radius: 3px;
+    margin: 0;
+    padding: 0;}.menu-clickable {
+    border: 1 px solid #000;
+    background-color: transparent;
+    border-radius: 3px;
+    color: #000;
+}

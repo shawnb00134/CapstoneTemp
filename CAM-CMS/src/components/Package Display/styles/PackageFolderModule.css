@@ -1,0 +1,29 @@
+#folder-module  {
+	border: var(--var-seperator);
+    border-width: 1.5px;
+    border-radius: 0.25em;
+    border-style: solid;
+	padding: 0.5em;
+	margin: 0.5em;
+	transition: 0.20s ease-out;
+	
+}
+
+.module:hover {
+	border-color: var(--var-accent-color-hover);
+	font-weight: bold;
+}
+.module-item-contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.module-title-link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.module-title-link:hover {
+    text-decoration: none;
+}

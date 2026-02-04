@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "CMSWebClient.Controllers.AuthorizationController",
+    "Method": "Login",
+    "RelativePath": "Authorization/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CMSWebClient.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CMSWebClient.Controllers.AuthorizationController",
+    "Method": "TestDbConnection",
+    "RelativePath": "Authorization/TestDbConnection",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

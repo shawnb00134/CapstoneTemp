@@ -1,0 +1,46 @@
+.module-dialog {
+    border: none;
+    box-shadow: var(--var-background-shadow);
+    padding: 2em;
+}
+
+.module-dialog label {
+	width: 100%;
+}
+
+.module-dialog .dialog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+}
+
+.module-dialog input[type="submit"], .module-dialog input[type="reset"] {
+	background-color: var(--var-accent-color);
+	border: none;
+	color: var(--var-background-color);
+	border-radius: 0.25em;
+	height: 2em;
+	width: 5em;
+	transition: var(--var-transition);
+}
+
+.module-dialog input[type="submit"]:hover, .module-dialog input[type="reset"]:hover {
+	cursor: pointer;
+	background-color: var(--var-accent-color-hover);
+	transform: scale(1.1);
+}
+
+.submit-row {
+    width: 100%;
+	display: flex;
+	justify-content: space-around !important;
+	margin-top: 1em;
+}
+
+.module-dialog input, .module-dialog textarea {
+	border: none;
+	margin: 1em 0;
+	box-shadow: var(--var-background-shadow);
+}

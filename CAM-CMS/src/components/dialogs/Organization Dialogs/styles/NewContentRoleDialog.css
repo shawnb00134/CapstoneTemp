@@ -1,0 +1,80 @@
+#new-content-role-dialog {
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  min-height: 300px;
+  max-height: 600px;
+  border-radius: 5px;
+  overflow-y: auto; 
+}
+.new-content-role-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.new-content-role-header h2 {
+  margin: 10px;
+}
+.new-content-role-header button {
+  color: white;
+  background-color: var(--var-accent-color);
+  border: none;
+  padding: 5px 7px;
+  border-radius: 5px;
+  transition: ease-in-out 0.2s;
+}
+.new-content-role-header button:hover {
+  cursor: pointer;
+  scale: 1.05;
+  background-color: var(--var-accent-color-hover);
+}
+.new-content-role-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 400px; 
+  overflow-y: auto; 
+}
+
+.new-role-name {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  justify-content: center;
+
+}
+.new-content-role-body p {
+	align-self: center;
+  margin-bottom: 5px;
+}
+.new-content-role-body input {
+  width: 100%;
+  padding: 5px;
+
+}
+.new-content-role-body select {
+  width: 100%;
+  padding: 5px;
+  height: 150px;
+}
+.new-content-role-footer {
+  display: flex;
+  margin: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.new-content-role-footer button {
+  color: white;
+  background-color: var(--var-accent-color);
+  border: none;
+  padding: 5px 7px;
+  border-radius: 5px;
+  transition: ease-in-out 0.2s;
+}
+
+.new-content-role-footer button:hover {
+  cursor: pointer;
+  scale: 1.05;
+  background-color: var(--var-accent-color-hover);
+}

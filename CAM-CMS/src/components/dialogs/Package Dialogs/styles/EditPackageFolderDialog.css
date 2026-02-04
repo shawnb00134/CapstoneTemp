@@ -1,0 +1,73 @@
+.edit-package-folder {
+  border: none;
+  box-shadow: var(--var-background-shadow);
+  padding: 2em;
+}
+
+.edit-package-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-package-header h2 {
+  margin: 0;
+}
+
+.edit-package-header button {
+  height: 30px;
+}
+
+#new-package-folder-dialog {
+  width: 30%;
+  height: 30%;
+}
+
+.package-title,
+.package-content-role {
+  margin-bottom: 10px;
+}
+
+.package-title label,
+.package-content-role label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.package-title input,
+.package-content-role select {
+  width: calc(100% - 10px);
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-package-folder-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-package-folder-footer button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-package-folder-footer button {
+  background-color: var(--var-accent-color);
+  color: white;
+}
+
+.edit-package-folder-footer button:hover {
+  background-color: var(--var-accent-color-hover);
+}
+
+.add-content-role {
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}

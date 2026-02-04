@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\CAM-CMS-Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0A68DEA-FC62-43B8-A703-79785013F157}|CAM-CMS-Server\\CAM-CMS-Server.csproj|c:\\users\\wd35b\\desktop\\uwg-cam-contentmanagementsystem\\cam-cms-server\\cam-cms-server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A68DEA-FC62-43B8-A703-79785013F157}|CAM-CMS-Server\\CAM-CMS-Server.csproj|solutionrelative:cam-cms-server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0A68DEA-FC62-43B8-A703-79785013F157}|CAM-CMS-Server\\CAM-CMS-Server.csproj|c:\\users\\wd35b\\desktop\\uwg-cam-contentmanagementsystem\\cam-cms-server\\cam-cms-server\\controller\\organizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A68DEA-FC62-43B8-A703-79785013F157}|CAM-CMS-Server\\CAM-CMS-Server.csproj|solutionrelative:cam-cms-server\\controller\\organizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0A68DEA-FC62-43B8-A703-79785013F157}|CAM-CMS-Server\\CAM-CMS-Server.csproj|c:\\users\\wd35b\\desktop\\uwg-cam-contentmanagementsystem\\cam-cms-server\\cam-cms-server\\utils\\sqlconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A68DEA-FC62-43B8-A703-79785013F157}|CAM-CMS-Server\\CAM-CMS-Server.csproj|solutionrelative:cam-cms-server\\utils\\sqlconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0A68DEA-FC62-43B8-A703-79785013F157}|CAM-CMS-Server\\CAM-CMS-Server.csproj|c:\\users\\wd35b\\desktop\\uwg-cam-contentmanagementsystem\\cam-cms-server\\cam-cms-server\\database\\repository\\organizationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A68DEA-FC62-43B8-A703-79785013F157}|CAM-CMS-Server\\CAM-CMS-Server.csproj|solutionrelative:cam-cms-server\\database\\repository\\organizationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0A68DEA-FC62-43B8-A703-79785013F157}|CAM-CMS-Server\\CAM-CMS-Server.csproj|c:\\users\\wd35b\\desktop\\uwg-cam-contentmanagementsystem\\cam-cms-server\\cam-cms-server\\database\\service\\organizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A68DEA-FC62-43B8-A703-79785013F157}|CAM-CMS-Server\\CAM-CMS-Server.csproj|solutionrelative:cam-cms-server\\database\\service\\organizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\CAM-CMS-Server\\CAM-CMS-Server\\Program.cs",
+              "RelativeDocumentMoniker": "CAM-CMS-Server\\Program.cs",
+              "ToolTip": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\CAM-CMS-Server\\CAM-CMS-Server\\Program.cs",
+              "RelativeToolTip": "CAM-CMS-Server\\Program.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T01:03:19.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrganizationController.cs",
+              "DocumentMoniker": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\CAM-CMS-Server\\CAM-CMS-Server\\Controller\\OrganizationController.cs",
+              "RelativeDocumentMoniker": "CAM-CMS-Server\\Controller\\OrganizationController.cs",
+              "ToolTip": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\CAM-CMS-Server\\CAM-CMS-Server\\Controller\\OrganizationController.cs",
+              "RelativeToolTip": "CAM-CMS-Server\\Controller\\OrganizationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T00:30:51.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrganizationService.cs",
+              "DocumentMoniker": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\CAM-CMS-Server\\CAM-CMS-Server\\Database\\Service\\OrganizationService.cs",
+              "RelativeDocumentMoniker": "CAM-CMS-Server\\Database\\Service\\OrganizationService.cs",
+              "ToolTip": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\CAM-CMS-Server\\CAM-CMS-Server\\Database\\Service\\OrganizationService.cs",
+              "RelativeToolTip": "CAM-CMS-Server\\Database\\Service\\OrganizationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T00:35:00.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrganizationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\CAM-CMS-Server\\CAM-CMS-Server\\Database\\Repository\\OrganizationRepository.cs",
+              "RelativeDocumentMoniker": "CAM-CMS-Server\\Database\\Repository\\OrganizationRepository.cs",
+              "ToolTip": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\CAM-CMS-Server\\CAM-CMS-Server\\Database\\Repository\\OrganizationRepository.cs",
+              "RelativeToolTip": "CAM-CMS-Server\\Database\\Repository\\OrganizationRepository.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAADwv0AAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T00:39:13.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SQLConstants.cs",
+              "DocumentMoniker": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\CAM-CMS-Server\\CAM-CMS-Server\\Utils\\SQLConstants.cs",
+              "RelativeDocumentMoniker": "CAM-CMS-Server\\Utils\\SQLConstants.cs",
+              "ToolTip": "C:\\Users\\wd35b\\Desktop\\UWG-CAM-ContentManagementSystem\\CAM-CMS-Server\\CAM-CMS-Server\\Utils\\SQLConstants.cs",
+              "RelativeToolTip": "CAM-CMS-Server\\Utils\\SQLConstants.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvzgCAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T00:32:17.066Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 233,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

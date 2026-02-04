@@ -1,0 +1,76 @@
+.organization-users {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+.users-aside {
+	padding: 0 1em;
+	width: 25%;
+	border-right: var(--var-seperator);
+}
+
+.users-header {
+	padding-bottom: 1em;
+	border-bottom: var(--var-seperator);
+	border-width: 3px;
+}
+
+.title-add-button {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-search {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	border: none;
+}
+
+.search-users-input {
+	width: 75%;
+	padding: 0.25em 0.25em 0.25em 1.5em;
+    border: none;
+    border-radius: 0.5em;
+    box-shadow: 0px 2px 7.5px 1px rgba(0, 0, 0, 0.25);
+    background: #FBF9FF;
+    flex-shrink: 0;
+}
+
+.users-aside-content {
+	height: 70%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.users-aside-item {
+	margin: 0.5em 2em;
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.users-aside-item p {
+	margin: 0;
+}
+
+.users-aside-item p:last-child {
+	margin-bottom: 0.5em;
+	padding-left: 1em;
+}
+
+.users-aside-item:hover {
+	transform: scale(1.015);
+	color: var(--var-accent-color);
+	text-decoration: underline;
+    transition: var(--var-transition);
+    transition-duration: 0.5s;
+}
+
+.users-content {
+	width: 75%;
+}

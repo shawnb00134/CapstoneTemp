@@ -1,0 +1,42 @@
+.text-creation-dialog {
+	width: 20%;
+	top: 15%;
+	z-index: 150;
+
+}
+
+#overlay {
+    visibility: hidden;
+    position:fixed;
+    z-index: 100;
+    inset:0;
+    background-color:rgb(0 0 0 / 20%);
+}
+
+.description  {
+	height: 7.5em;
+	width: 90%;
+	margin: 1em;
+	border: none;
+	background-color: var(--var-background-color);
+	border-radius: 0.25em;
+	text-align: center;
+	font-size: 0.75em;
+	box-shadow: var(--var-background-shadow);
+}
+
+.text-input {
+	width: 84%;
+	margin: 1em;
+}
+.ql-container {
+    height: auto;
+    width: 100%;
+}
+.ql-editor {
+    height: auto;
+    width: auto;
+}
+.ql-toolbar {
+    width: auto;
+}

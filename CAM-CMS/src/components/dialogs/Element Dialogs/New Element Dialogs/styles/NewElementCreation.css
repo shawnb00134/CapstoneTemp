@@ -1,0 +1,45 @@
+.new-element-dialog {
+	border: none;
+    box-shadow: var(--var-background-shadow);
+	padding: 2em;
+}
+
+.new-element-dialog .dialog-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	text-align: left;
+}
+
+.new-element-dialog label {
+	width: 100%;
+}
+
+.new-element-dialog input[type="submit"], .new-element-dialog input[type="reset"] {
+	background-color: var(--var-accent-color);
+	border: none;
+	color: var(--var-background-color);
+	border-radius: 0.25em;
+	height: 2em;
+	width: 5em;
+	transition: var(--var-transition);
+}
+
+.new-element-dialog input[type="submit"]:hover, .new-element-dialog input[type="reset"]:hover {
+	cursor: pointer;
+	background-color: var(--var-accent-color-hover);
+	transform: scale(1.1);
+}
+
+.submit-row {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1em;
+}
+
+.new-element-dialog input {
+	border: none;
+	margin: 1em 0;
+	box-shadow: var(--var-background-shadow);
+}

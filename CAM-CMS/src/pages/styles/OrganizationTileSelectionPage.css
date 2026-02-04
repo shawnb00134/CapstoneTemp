@@ -1,0 +1,67 @@
+.tile-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.tile-header {
+	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	margin-bottom: 20px;
+	
+}
+.tile-search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 60%;
+}
+.tile-search input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0;
+}
+.tile-search button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: var(--var-accent-color);
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: ease-in-out var(--var-transition);
+}
+.tile-search button:hover {
+  background-color: var(--var-accent-color-hover);
+}
+.tile-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.tile-content {
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: space-evenly; 
+	gap: 10px; 
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+  }
+  
+  .tile {
+  height: fit-content;
+	cursor: pointer;
+	transition: ease-in-out var(--var-transition);
+  }

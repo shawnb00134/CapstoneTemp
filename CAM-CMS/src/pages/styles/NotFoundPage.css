@@ -1,0 +1,29 @@
+/* NotFound.css */
+.not-found-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.not-found-container h1 {
+    font-size: 3em;
+    color: #333;
+}
+
+.not-found-container p {
+    font-size: 1.2em;
+    color: var(--var-accent-color);
+}
+
+.not-found-container button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: var(--var-background-accent-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.not-found-container button:hover {
+    background-color:  var(--var-background-accent-color);
+}

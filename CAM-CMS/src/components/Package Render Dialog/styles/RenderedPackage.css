@@ -1,0 +1,45 @@
+.rendered-package-dialog{
+	height: 75%;
+    width: 30%;
+}
+.rendered-package {
+	height: 100%;
+	width: 100%;
+	overflow-y: scroll;
+
+}
+.close-button {
+	width: 4.45em;
+    height: 2.5em;
+    border: none;
+    margin: 0em 1em;
+}
+.rendered-package-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+.rendered-package-folder {
+	margin-left: 10px;
+	margin-top: 0.5em;
+	border-left: 1px dashed black;
+	margin-bottom: .2em;
+}
+.render-package-content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 100%;
+}
+.rendered-folder-item {
+	margin: 0;
+	font-weight: bold;
+	text-align: left;
+	
+}
+.rendered-package-module {
+	/* Styles for modules */
+	 margin-left: 20px; /* Adjust as needed */
+    text-align: left;
+  }

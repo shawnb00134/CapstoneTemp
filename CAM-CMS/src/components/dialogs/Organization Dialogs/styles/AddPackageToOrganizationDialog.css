@@ -1,0 +1,96 @@
+.add-package-dialog {
+    width: 30%;
+    max-width: 500px;
+    min-height: 200px;
+    max-height: 600px;
+    overflow: hidden;
+  }
+  .add-header {
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 10px;
+  }
+  .add-header h2 {
+    margin: 0;
+    font-size: 1.5em;
+    cursor: context-menu;
+  }
+  .add-header button {	
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: var(--var-accent-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: ease-in-out 0.2s;
+  }
+  .add-header button:hover {
+    background-color: var(--var-accent-color-hover);
+    scale: 1.05;
+  }
+  .package-search {
+      width: 90%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }
+  .packages {
+      display: flex;
+      flex-direction: column;
+      overflow-y: scroll;
+      min-height: 350px;
+      max-height: 400px;
+      margin-bottom: 10px;
+      
+  }
+  .package-container{
+      font-size: 1.2em;
+  }
+  
+  .pack-selection {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 10px;
+      border: 1px solid #e0e0e0;
+      border-radius: 5px;
+      margin: 10px;
+      transition: var(--var-transition);
+  }
+  .pack-selection.selected {
+      background-color: var(--var-accent-color);
+      color: white;
+      transition: var(--var-transition);
+  }
+  .pack-selection:hover {
+      background-color: var(--var-accent-color-hover);
+      color: white;
+  }
+  .published-check {
+      visibility: hidden;
+  }
+  .packages:hover {
+    background-color: transparent;
+  }
+  .add-footer {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      border-top: 1px solid #e0e0e0;
+  }
+    .add-footer button {
+        cursor: pointer;
+        border: none;
+        color: white;
+        background-color: var(--var-accent-color);
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: ease-in-out 0.2s;
+    }
+    .add-footer button:hover {
+        background-color: var(--var-accent-color-hover);
+        scale: 1.05;
+    }

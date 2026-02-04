@@ -1,0 +1,33 @@
+.module-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0.5em;
+    border: var(--var-seperator);
+    border-radius: 0.25em;
+    border-style: dashed;
+    transition: var(--var-transition);
+    transition-duration: 0.25s;
+}
+
+.module-element:hover {
+    border-color: var(--var-accent-color-hover);
+}
+
+.module-element img {
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 0.5em;
+}
+
+.module-element .video-player {
+    width: 300px !important;
+    height: 200px !important;
+}
+
+.module-element-content {
+    width: 100%;
+}

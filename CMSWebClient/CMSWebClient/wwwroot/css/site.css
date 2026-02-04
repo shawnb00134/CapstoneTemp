@@ -1,0 +1,23 @@
+﻿html {
+    verflow-y: scroll;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #6f42c1;
+    color: white;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-purple {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+    color: white;
+}

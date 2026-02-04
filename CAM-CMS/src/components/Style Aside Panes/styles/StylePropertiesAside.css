@@ -1,0 +1,84 @@
+.style-properties {
+    width: 35em;
+    height: 100%;
+    background-color: var(--var-background-color);
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0 1em;
+    border: 1px solid var(--var-background-accent-color);
+    margin-right: -5em;
+    margin-left: 5em;
+    transition: var(--var-transition);
+    transition-property: all;
+}
+
+
+.style-properties.collapsed {
+    margin-right: calc(-35em - 10em);
+}
+
+.style-properties-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em 0;
+    border-bottom: 1px solid var(--var-background-accent-color);
+}
+
+.style-properties-view-element-button {
+    width: 10em;
+    height: 2em;
+    border-radius: 0.5em !important;
+}
+
+.style-properties-selected-element-info {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--var-background-accent-color);
+}
+
+.style-input {
+    width: 50%;
+    margin: 2%;
+    box-shadow: none;
+    border: 1px solid var(--var-background-accent-color);
+    padding: 0.5em;
+
+}
+
+.style-select {
+    background-color: var(--var-background-color);
+    text-align: center;
+    width: 30%;
+    margin: 2%;
+    box-shadow: none;
+    border: 1px solid var(--var-background-accent-color);
+    padding: 0.5em;
+}
+
+.style-h3 {
+    margin: 0.5em 0;
+    padding: 0;
+}
+
+.ratio-lock-button {
+    width: 2em;
+    margin: 0.5em;
+    background-color: transparent;
+    color: var(--var-accent-color);
+}
+
+.ratio-lock-button:hover {
+    background-color: transparent;
+}
+
+.style-properties-footer-close-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em 0;
+    padding: 1%;
+    border-top: 1px solid var(--var-background-accent-color);
+}

@@ -1,0 +1,67 @@
+#new-package-folder-dialog {
+	width: 30%;
+	height: 30%;
+  }
+  
+  .new-package-folder-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 10px;
+  }
+  
+  .new-package-folder-header h2 {
+	margin: 0;
+	font-size: 1.5em;
+	cursor: context-menu;
+  }
+  
+  .new-package-folder-header button {
+	cursor: pointer;
+  }
+  
+  .package-title,
+  .package-content-role {
+	margin-bottom: 10px;
+  }
+  
+  .package-title label,
+  .package-content-role label {
+	display: block;
+	font-size: 1.2em;
+	margin-bottom: 5px;
+  }
+  
+  .package-title input,
+  .package-content-role select {
+	width: calc(100% - 10px);
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+  }
+  
+  .new-package-folder-footer {
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .new-package-folder-footer button {
+	padding: 8px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .new-package-folder-footer button {
+	background-color: var(--var-accent-color);
+	color: white;
+  }
+  
+  .new-package-folder-footer button:hover {
+	background-color: var(--var-accent-color-hover);
+  }
+  
+ 
+  

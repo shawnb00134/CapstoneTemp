@@ -1,0 +1,13 @@
+{
+	"reporterEnabled": "spec, mocha-junit-reporter",
+	"mochawesomeReporterReporterOptions": {
+		"reportDir": "cypress/reports",
+		"charts": true,
+		"reportPageTitle": "My Test Suite",
+		"embeddedScreenshots": true,
+		"inlineAssets": true
+	},
+	"mochaJunitReporterReporterOptions": {
+		"mochaFile": "cypress/reports/junit/results-[hash].xml"
+	}
+}

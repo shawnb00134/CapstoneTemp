@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "UWG CMS - 404 - Page not found";
+}
+
+<div>
+    <header>
+        <div class="header d-flex align-items-center pe-5">
+            <img src="~/images/uwg-logo-2022.jpg" class="img-fluid" />
+            <ul class="navbar-nav ms-auto d-flex flex-row">
+                <li class="nav-item me-3">
+                    <a asp-controller="Home" asp-action="Index">Logout</a>
+                </li>
+                <li class="nav-item">
+                    ADMIN123
+                </li>
+            </ul>
+        </div>
+    </header>
+</div>
+
+<div class="d-flex flex-column align-items-center justify-content-center mt-5 text-center">
+    <h1>404 - Page Not Found</h1>
+    <p>The page you are looking for either does not exist, your lak the permissions to view it, or otherwise cannot be reached.</p>
+    <p>Please check the URL or try again and contact an administrator if you believe this is an error.</p>
+    <a asp-controller="Home" asp-action="Dashboard" class="btn btn-dark">Go to Dashboard</a>
+</div>

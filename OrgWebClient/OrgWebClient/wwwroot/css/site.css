@@ -1,0 +1,14 @@
+﻿html {
+    verflow-y: scroll;
+}
+
+header {
+    background-color: #6EC1E4;
+    color: white;
+}
+
+.btn-Login {
+    background-color: #6EC1E4;
+    border-color: #6f42c1;
+    color: white;
+}

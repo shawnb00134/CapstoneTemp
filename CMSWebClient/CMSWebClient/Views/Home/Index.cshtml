@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "UWG CMS - Log In";
+}
+<!--
+<div>
+    <header>
+        <div class="header">
+            <img src="~/images/uwg-logo-2022.jpg" class="img-fluid"/>
+        </div>
+    </header>
+</div>
+-->
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-8  col-md-6 col-lg-4 border rounded shadow-lg p-4 mt-4">
+            <div class="d-flex flex-column align-items-center">
+                <h3>Log In</h3>
+                <p>Enter your username and password to log in.</p>
+            </div>
+            <div>
+                <form id="loginForm">
+                    <div id="errorMessage" class="alert alert-danger" style="display:none"></div>
+                    <div class="row">
+                        <input class="form-control" id="username" placeholder="Username" required/>
+                        <div id="usernameError" class="text-danger"></div>
+                    </div>
+                    <div class="row pt-2">
+                        <input class="form-control" id="password" type="password" placeholder="Password" required/>
+                        <div id="passwordError" class="text-danger"></div>
+                    </div>
+                    <div class="d-grid gap-2 pt-4">
+                        <!--<a asp-controller="Home" asp-action="Dashboard" class="btn btn-purple">Log In</a>-->
+                        <button type="submit" id="loginBtn" class="btn btn-purple">Log In</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/login.js"></script>
+}
