@@ -57,15 +57,32 @@ namespace CMSWebClient.Controllers
             // Generate JWT token
             var token = GenerateJwtToken(user);
 
+            // Set token in HTTP-only cookie
+            Response.Cookies.Append("AuthToken", token, new CookieOptions
+            {
+                HttpOnly = true,
+                Secure = false, // Set to true in production with HTTPS
+                SameSite = SameSiteMode.Lax,
+                Expires = DateTimeOffset.UtcNow.AddHours(8)
+            });
+
             return Ok(new
             {
-                accessToken = token,
                 userId = user.Id,
                 username = user.Username,
                 firstName = user.FirstName,
                 lastName = user.LastName,
                 email = user.Email
             });
+
+        }
+
+        [HttpPost("Logout")]
+        public IActionResult Logout()
+        {
+            Response.Cookies.Delete("AuthToken");
+
+            return RedirectToAction("Index", "Home");
         }
 
         [HttpGet("TestDbConnection")]
@@ -113,7 +130,8 @@ namespace CMSWebClient.Controllers
 
             var token = new JwtSecurityToken(
                 claims: claims,
-                expires: DateTime.Now.AddHours(8),
+                //expires: DateTime.Now.AddHours(8),
+                expires: DateTime.UtcNow.AddHours(8),
                 signingCredentials: credentials
             );
 

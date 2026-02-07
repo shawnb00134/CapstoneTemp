@@ -17,19 +17,19 @@ namespace CMSWebClient.Models
         public string Password { get; set; }
 
         [Column("firstname")]
-        public string FirstName { get; set; }
+        public string? FirstName { get; set; }
 
         [Column("lastname")]
-        public string LastName { get; set; }
+        public string? LastName { get; set; }
 
         [Column("email")]
-        public string Email { get; set; }
+        public string? Email { get; set; }
 
         [Column("phone")]
-        public string Phone { get; set; }
+        public string? Phone { get; set; }
 
         [Column("avatar")]
-        public string Avatar { get; set; }
+        public string? Avatar { get; set; }
 
         [Column("created_at")]
         public DateTime? CreatedAt { get; set; }

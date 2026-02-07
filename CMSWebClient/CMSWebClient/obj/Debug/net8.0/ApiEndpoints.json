@@ -17,6 +17,16 @@
   },
   {
     "ContainingType": "CMSWebClient.Controllers.AuthorizationController",
+    "Method": "Logout",
+    "RelativePath": "Authorization/Logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CMSWebClient.Controllers.AuthorizationController",
     "Method": "TestDbConnection",
     "RelativePath": "Authorization/TestDbConnection",
     "HttpMethod": "GET",
