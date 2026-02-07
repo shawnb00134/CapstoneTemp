@@ -24,6 +24,7 @@ builder.Services.AddAuthentication(options =>
             ValidateIssuer = false,
             ValidateAudience = false,
             ValidateLifetime = true,
+            ClockSkew = TimeSpan.Zero,
             ValidateIssuerSigningKey = true,
             IssuerSigningKey = new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(builder.Configuration["JwtKey"])
@@ -35,11 +36,20 @@ builder.Services.AddAuthentication(options =>
         {
             OnMessageReceived = context =>
             {
-                // Check for token in cookie
-                if (context.Request.Cookies.ContainsKey("AuthToken"))
+                var authHeader = context.Request.Headers["Authorization"].FirstOrDefault();
+
+                if (!string.IsNullOrEmpty(authHeader) &&
+                    authHeader.StartsWith("Bearer "))
+                {
+                    context.Token = authHeader.Substring("Bearer ".Length);
+                }
+
+                // 2. Fallback to cookie (optional)
+                else if (context.Request.Cookies.ContainsKey("AuthToken"))
                 {
                     context.Token = context.Request.Cookies["AuthToken"];
                 }
+
                 return Task.CompletedTask;
             }
         };

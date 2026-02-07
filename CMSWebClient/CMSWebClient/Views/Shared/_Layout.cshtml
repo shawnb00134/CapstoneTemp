@@ -16,7 +16,8 @@
     <div>
         <header>
             <div class="header d-flex align-items-center pe-5">
-                <img src="~/images/uwg-logo-2022.jpg" class="img-fluid" />
+                <a asp-controller="Home" asp-action="Dashboard"><img src="~/images/uwg-logo-2022.jpg" class="img-fluid" /></a>
+                <!--
                 <ul class="navbar-nav ms-auto d-flex flex-row">
                     <li class="nav-item me-3">
                         <a asp-controller="Home" asp-action="Index">Logout</a>
@@ -25,6 +26,22 @@
                         ADMIN123
                     </li>
                 </ul>
+                -->
+                
+                <ul class="navbar-nav ms-auto d-flex flex-row align-items-center">
+                    @if (User.Identity?.IsAuthenticated == true)
+                    {
+                        <li class="nav-item me-3">
+                            <form asp-controller="Authorization" asp-action="Logout" method="post" class="d-inline">
+                                <button type="submit" class="btn btn-outline-light p-1 fw-bold">Logout</button>
+                            </form>
+                        </li>
+                        <li class="nav-item">
+                            <span class="fw-bold">@User.Identity.Name</span>
+                        </li>
+                    }
+                </ul>
+
             </div>
         </header>
     </div>

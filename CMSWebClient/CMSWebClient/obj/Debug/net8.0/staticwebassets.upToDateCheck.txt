@@ -7,7 +7,6 @@ wwwroot\images\People.jpg
 wwwroot\images\uwg-logo-2022.jpg
 wwwroot\images\uwg-logo-2022.png
 wwwroot\images\uwg-logo-2022.svg
-wwwroot\js\auth.js
 wwwroot\js\login.js
 wwwroot\js\login1.js
 wwwroot\lib\bootstrap\css\bootstrap-grid.css

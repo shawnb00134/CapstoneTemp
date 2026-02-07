@@ -17,31 +17,54 @@ const Requests = {
         return await response.json();
     }
 };
+document.addEventListener('DOMContentLoaded', () => {
 
-document.addEventListener('DOMContentLoaded', function() {
-    // Clear any existing session data
-    sessionStorage.removeItem('userData');
-    sessionStorage.removeItem('userReadPrivileges');
-    
-    // Check for OAuth code in URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const code = urlParams.get('code');
-    
-    if (code) {
-        fetchTokens(code);
-    }
-    
-    // Set up login button handler
-    document.getElementById('loginBtn').addEventListener('click', handleLogin);
-    
-    // Allow Enter key to submit
-    document.getElementById('loginForm').addEventListener('keypress', function(e) {
-        if (e.key === 'Enter') {
-            e.preventDefault();
-            handleLogin();
+    const form = document.getElementById('loginForm');
+    const errorBox = document.getElementById('errorMessage');
+
+    form.addEventListener('submit', async (e) => {
+
+        e.preventDefault();
+        errorBox.style.display = 'none';
+
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+
+        try {
+
+            const response = await fetch('/Authorization/Login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    Username: username,
+                    Password: password
+                })
+            });
+
+            if (!response.ok) {
+                throw new Error('Invalid login');
+            }
+
+            const data = await response.json();
+
+            // Store JWT
+            sessionStorage.setItem('accessToken', data.accessToken);
+
+            // Redirect
+            window.location.href = '/Home/Dashboard';
+
+        }
+        catch (err) {
+
+            errorBox.textContent = 'Login failed. Check credentials.';
+            errorBox.style.display = 'block';
         }
     });
+
 });
+;
 
 function handleLogin() {
     const username = document.getElementById('username').value;
